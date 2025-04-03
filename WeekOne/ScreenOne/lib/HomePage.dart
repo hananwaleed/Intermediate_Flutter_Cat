@@ -18,12 +18,25 @@ class Homepage extends StatelessWidget {
         padding: const EdgeInsets.all(10),
         child: Column(
           children: [
-            Row(mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Buildrow(color: Colors.black),
                 Buildrow(color: Colors.yellow),
                 Buildrow(color: Colors.red),
               ],
+            ),SizedBox(height: 20,),
+            Expanded(
+              child: Row( 
+                children: [
+                  Container(
+                    width: 370,
+                    height: 65,
+                    decoration: BoxDecoration(color: Colors.blue),child: 
+                    Center(child: Text("POSTS",style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold,color: Colors.white),)),
+                  ),
+                ],
+              ),
             ),
           ],
         ),
