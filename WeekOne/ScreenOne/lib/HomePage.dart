@@ -37,6 +37,17 @@ class Homepage extends StatelessWidget {
                   ),
                 ],
               ),
+            ),  Expanded(
+              child: Row( 
+                children: [
+                  Container(
+                    width: 370,
+                    height: 65,
+                    decoration: BoxDecoration(color: Colors.blue),child: 
+                    Center(child: Text("POSTS",style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold,color: Colors.white),)),
+                  ),
+                ],
+              ),
             ),
           ],
         ),
