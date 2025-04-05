@@ -27,7 +27,7 @@ class Homepage extends StatelessWidget {
               ],
             ),SizedBox(height: 20,),
             Expanded(
-              child: Row( 
+              child:  Row( 
                 children: [
                   Container(
                     width: 370,
