@@ -8,12 +8,11 @@ class Homepage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: Icon(Icons.menu),
         title: Text(
           "Task 1",
           style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
         ),
-      ),
+      ),drawer: Drawer(),
       body: Padding(
         padding: const EdgeInsets.all(10),
         child: Column(
