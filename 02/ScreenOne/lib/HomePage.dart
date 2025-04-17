@@ -26,7 +26,10 @@ class Homepage extends StatelessWidget {
                   children: const [
                     Text(
                       "Hanan Waleed",
-                      style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 25,
+                      ),
                     ),
                     Text("Personal"),
                   ],
@@ -37,30 +40,17 @@ class Homepage extends StatelessWidget {
             const SizedBox(height: 20),
 
             // First Custom Row
-            const CustomRow(
-              textOne: "Connections",
-              textTwo: "21 New",
-            ),
+            const CustomRow(textOne: "Connections", textTwo: "21 New"),
 
             // Second Custom Row (Private Data)
-            const CustomRow(
-              textOne: "Private Data",
-              textTwo: "10 New",
-            ),
- const SizedBox(height: 20),
+            const CustomRow(textOne: "Private Data", textTwo: "10 New"),
+            const SizedBox(height: 20),
 
             // First Custom Row
-            const CustomRow(
-              textOne: "Connections",
-              textTwo: "21 New",
-            ),
+            const CustomRow(textOne: "Connections", textTwo: "21 New"),
 
             // Second Custom Row (Private Data)
-            const CustomRow(
-              textOne: "Private Data",
-              textTwo: "10 New",
-            ),
- 
+            const CustomRow(textOne: "Private Data", textTwo: "10 New"),
           ],
         ),
       ),
