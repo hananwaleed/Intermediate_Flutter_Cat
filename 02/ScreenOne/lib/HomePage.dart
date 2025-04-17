@@ -47,7 +47,19 @@ class Homepage extends StatelessWidget {
               textOne: "Private Data",
               textTwo: "10 New",
             ),
+ const SizedBox(height: 20),
 
+            // First Custom Row
+            const CustomRow(
+              textOne: "Connections",
+              textTwo: "21 New",
+            ),
+
+            // Second Custom Row (Private Data)
+            const CustomRow(
+              textOne: "Private Data",
+              textTwo: "10 New",
+            ),
  
           ],
         ),
