@@ -51,7 +51,7 @@ class Homepage extends StatelessWidget {
 
             // Second Custom Row (Private Data)
             const CustomRow(textOne: "Private Data", textTwo: "10 New"),
-              const CustomRow(textOne: "Private Data", textTwo: "10 New"),
+            const CustomRow(textOne: "Private Data", textTwo: "10 New"),
           ],
         ),
       ),
