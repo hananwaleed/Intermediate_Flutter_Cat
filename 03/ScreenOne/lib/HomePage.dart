@@ -8,7 +8,7 @@ class Homepage extends StatefulWidget {
 }
 
 class _HomepageState extends State<Homepage> {
-  bool isSwitched = false;
+  bool isSwitched = true;
 
   @override
   Widget build(BuildContext context) {
