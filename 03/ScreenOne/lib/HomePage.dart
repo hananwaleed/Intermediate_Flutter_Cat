@@ -29,7 +29,7 @@ class _HomepageState extends State<Homepage> {
           "Sign in",
           style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
         ),
-        centerTitle: true,
+        centerTitle: false,
       ),
     );
   }
