@@ -26,7 +26,7 @@ class _HomepageState extends State<Homepage> {
           inactiveThumbColor: Colors.grey,
         ),
         title: Text(
-          "Sign in",
+          "Sign  in ",
           style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
         ),
         centerTitle: false,
